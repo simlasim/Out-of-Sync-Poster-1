@@ -19,7 +19,8 @@
 
   <a-scene embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;">
     <!-- Use custom marker (your poster pattern) -->
-    <a-marker type="pattern" url="pattern-posterkapak_1.patt">
+     <a-marker preset="kanji"></a-marker>
+    <a-marker type="pattern" url="http://examples.org/kanji.patt">
       <!-- Play the video on top of the marker -->
       <a-video src="#poster-video" rotation="-90 0 0" width="1" height="0.6" position="0 0 0"></a-video>
     </a-marker>
